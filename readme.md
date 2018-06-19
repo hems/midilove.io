@@ -1,8 +1,6 @@
 # midilove.io
 
-currently hosted for free at heroku
-
-[https://midilove.herokuapp.com/](https://midilove.herokuapp.com/)
+Currently hosted for free at [https://midilove.herokuapp.com/](https://midilove.herokuapp.com/)
 
 # TODO:
 
@@ -26,3 +24,13 @@ currently hosted for free at heroku
     - [guify](https://github.com/colejd/guify)
 
   - Get a nice design for the website
+
+# NOTES:
+
+The code is a mess mainly because i created this repository to try out some
+messy things together:
+
+ - Meteor 1.7
+ - WebMidi
+ - NRPN Messages
+ - Possibly ( but not sure yet ) React integration with Meteor 1.7
