@@ -1,0 +1,20 @@
+<template name="nrpn">
+  Inputs:
+  <select class="input">
+    {{#each outputs}}
+    <option value="{{id}}" selected={{is_selected 'input' id}}>{{manufacturer}} - {{name}}</option>
+    {{/each}}
+  </select>
+  <br />
+
+  Outputs:
+  <select class="output">
+    {{#each outputs}}
+    <option value="{{id}}" selected={{is_selected 'output' id}}>{{manufacturer}} - {{name}}</option>
+    {{/each}}
+  </select>
+
+  <br />
+  <button class='random'>SEND RANDOM NRPN</button>
+  <button class='sh'>S&H !!!</button>
+</template>
